@@ -1,0 +1,32 @@
+DISCOUNT FACTOR : maximize rewards and decision to choose action to optimise rewards
+POLICY : lookup table for prev state, action, ...1. stochastic(prob of action given state) 2. deterministic (direct mapping of state and action)
+policy is neural network
+VALUE FUNCTION : evaluate your policy
+
+PPO algorithm:
+Policy network --> which action to take given an input
+Value network --> estimate cumulative results given an input
+
+Optimization:
+Reward functions, hyperparameters
+
+
+Reddis DB  --. captures experience
+AWS SageMaker--> copy S3
+AWSRoboMaker --> S3 to simulation
+
+Episode
+Steps/segments
+rewards,state,environment, new state
+
+Parmeter : internal parameters learned from training
+Hyper-parameters : externat parameter to tune the model
+
+Useful reference link:
+https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794 
+https://medium.com/proud2becloud/deepracer-our-journey-to-the-top-ten-257ff69922e
+https://www.linkedin.com/pulse/aws-deepracer-tips-tricks-how-build-powerful-rewards-wong/ 
+https://www.reddit.com/r/DeepRacer/comments/bp0xkr/sharing_my_reward_functions_so_far/  
+https://www.aws.training/Details/eLearning?id=32143
+
+
